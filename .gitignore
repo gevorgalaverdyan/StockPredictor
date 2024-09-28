@@ -1,0 +1,51 @@
+# Ignore Python bytecode and other unnecessary files
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pdb
+*.egg
+*.egg-info
+dist/
+build/
+*.so
+
+# Ignore Django specific files
+*.log
+*.pot
+*.pyc
+*.mo
+*.db
+*.sqlite3
+*.env
+
+# Ignore Angular specific files
+node_modules/
+dist/
+tmp/
+temp/
+*.log
+*.tsbuildinfo
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore frontend/api and frontend/ux specific files
+frontend/api/__pycache__/
+frontend/api/*.pyc
+frontend/api/*.pyo
+frontend/api/*.log
+frontend/ux/node_modules/
+frontend/ux/.vscode/
+frontend/ux/dist/
+frontend/ux/tmp/
+frontend/ux/temp/
+frontend/ux/*.log
+frontend/ux/*.tsbuildinfo
